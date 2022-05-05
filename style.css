@@ -33,12 +33,5 @@ main {
 }
 
 input[type="text"] {
-  width: 20px;
-}
-
-.fullname {
-  display: flex;
-  flex-flow: row wrap;
   width: fit-content;
-  align-items: center;
 }
