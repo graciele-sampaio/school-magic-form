@@ -25,8 +25,20 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  border: 1px solid black;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+input[type="text"] {
+  width: 20px;
+}
+
+.fullname {
+  display: flex;
+  flex-flow: row wrap;
+  width: fit-content;
+  align-items: center;
 }
