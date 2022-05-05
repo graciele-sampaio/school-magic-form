@@ -32,6 +32,6 @@ main {
   height: 500px;
 }
 
-input[type="text"] {
+input[ type = 'text' ] {
   width: fit-content;
 }
