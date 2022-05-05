@@ -1,14 +1,15 @@
-function dadosCorretos () {
-let email = document.getElementById("email");
-let senha = document.getElementById("senha");
-let alertLogin = document.querySelector(".btn");
-alertLogin.addEventListener(click, "loginTryber");
+console.log('Olá, mundo!');
 
-    if (email.value = "tryber@teste.com" && password.value= "123456") {
-        window.alert("Olá, Tryber!")
-    } else {
-       window.alert ("Email ou senha inválidos.")
-    }
+const alertLogin = document.querySelectorAll('.btn')[0];
+const email = document.getElementById('email');
+const password = document.getElementById('senha');
+
+// Alert
+function loginTryber() {
+  if (email.value === 'tryber@teste.com' && password.value === '123456') {
+    window.alert('Olá, Tryber!');
+  } else {
+    window.alert('Email ou senha inválidos.');
+  }
 }
-
-loginTryber();
+alertLogin.addEventListener('click', loginTryber);
