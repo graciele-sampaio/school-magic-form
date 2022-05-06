@@ -1,4 +1,4 @@
-function dadosCorretos () {
+function loginTryber () {
 let email = document.getElementById("email");
 let senha = document.getElementById("senha");
 let alertLogin = document.querySelector(".btn");
