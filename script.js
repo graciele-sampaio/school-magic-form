@@ -1,6 +1,7 @@
 const alertLogin = document.querySelectorAll('.btn')[0];
 const email = document.getElementById('email');
 const password = document.getElementById('senha');
+const form = document.getElementById('evaluation-form');
 
 // Alert
 function loginTryber() {
@@ -33,6 +34,28 @@ function maxCount() {
   counter.innerText = 500 - textArea.value.length;
 }
 textArea.addEventListener('keyup', maxCount);
+
+// Send Button
+function getName() {
+  const firstName = document.getElementById('input-name').value;
+  const lastName = document.getElementById('input-lastname').value;
+  const fullName = document.createElement('p');
+  fullName.innerText = `Nome: ${firstName} ${lastName}`;
+  form.appendChild(fullName);
+}
+
+function getEmail() {
+  
+}
+
+submitBtn.addEventListener('click', getName);
+
+function handleSubtmit(event) {
+  const myEvent = event;
+  myEvent.preventDefault();
+}
+submitBtn.addEventListener('click', handleSubtmit);
+
 
 window.onload = () => {
   maxCount();
