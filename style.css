@@ -41,3 +41,8 @@ main {
   display: flex;
   flex-direction: row;
 }
+
+#label-rate {
+  display: flex;
+  flex-direction: row;
+}
