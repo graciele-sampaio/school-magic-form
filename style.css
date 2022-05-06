@@ -36,3 +36,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+#label-content {
+  display: flex;
+  flex-direction: row;
+}
