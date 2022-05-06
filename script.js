@@ -25,6 +25,15 @@ function agree() {
 }
 checkAgree.addEventListener('click', agree);
 
+// Counter
+const counter = document.getElementById('counter');
+const textArea = document.getElementsByTagName('textarea')[0];
+
+function maxCount() {
+  counter.innerText = 500 - textArea.value.length;
+}
+textArea.addEventListener('keyup', maxCount);
+
 window.onload = () => {
-  agree();
+  maxCount();
 };
