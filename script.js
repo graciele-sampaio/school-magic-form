@@ -11,3 +11,20 @@ function loginTryber() {
   }
 }
 alertLogin.addEventListener('click', loginTryber);
+
+// Agree and submit
+const submitBtn = document.getElementById('submit-btn');
+const checkAgree = document.getElementById('agreement');
+
+function agree() {
+  if (checkAgree.checked) {
+    submitBtn.disabled = false;
+  } else {
+    submitBtn.disable = true;
+  }
+}
+checkAgree.addEventListener('click', agree);
+
+window.onload = () => {
+  agree();
+};
