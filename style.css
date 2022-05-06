@@ -46,3 +46,7 @@ main {
   display: flex;
   flex-direction: row;
 }
+
+#submit-btn {
+  align-self: center;
+}
