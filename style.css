@@ -50,3 +50,9 @@ main {
 #submit-btn {
   align-self: center;
 }
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
