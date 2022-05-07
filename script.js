@@ -21,7 +21,7 @@ function agree() {
   if (checkAgree.checked) {
     submitBtn.disabled = false;
   } else {
-    submitBtn.disable = true;
+    submitBtn.disabled = true;
   }
 }
 checkAgree.addEventListener('click', agree);
@@ -45,7 +45,10 @@ function getName() {
 }
 
 function getEmail() {
-  
+  const email = document.getElementById('input-email').value;
+  const formatEmail = document.createElement('p');
+  formatEmail.innerText = `Email: ${email}`;
+  form.appendChild(email);
 }
 
 submitBtn.addEventListener('click', getName);
@@ -55,7 +58,6 @@ function handleSubtmit(event) {
   myEvent.preventDefault();
 }
 submitBtn.addEventListener('click', handleSubtmit);
-
 
 window.onload = () => {
   maxCount();
