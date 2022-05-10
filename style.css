@@ -1,9 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(212, 212, 212);
+}
+
+#evaluation-form input {
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
 .header {
   height: 70px;
   width: 100%;
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  align-self: center;
+  font-family: 'Caveat Brush', cursiva;
 }
 
 .trybewarts-login {
@@ -26,10 +49,12 @@ main {
   width: 675px;
   flex-direction: column;
   border: 1px solid black;
+  padding: 20px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  align-self: center;
 }
 
 #label-family {
@@ -51,8 +76,20 @@ main {
   align-self: center;
 }
 
+button {
+  padding: 5px 30px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+}
+
 footer {
   display: flex;
   width: 100%;
   justify-content: center;
+  height: 30px;
+  background-color:  rgb(50, 167, 145);
+  align-items: center;
+  color: white;
 }
