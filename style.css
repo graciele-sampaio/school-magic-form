@@ -54,7 +54,7 @@ main {
   padding: 20px;
 }
 
-#evaluation-form input[ type = 'text' ] {
+.text-form {
   padding: 10px 65px;
   border-radius: 10px;
   margin-bottom: 5px;
