@@ -26,7 +26,6 @@ h1 {
   color: white;
   font-size: 40px;
   align-self: center;
-  font-family: 'Caveat Brush', cursiva;
 }
 
 .trybewarts-login {
@@ -89,7 +88,7 @@ footer {
   width: 100%;
   justify-content: center;
   height: 30px;
-  background-color:  rgb(50, 167, 145);
+  background-color: rgb(50, 167, 145);
   align-items: center;
   color: white;
 }

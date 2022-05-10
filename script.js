@@ -56,8 +56,31 @@ function getHouse() {
 
 function getFamily() {
   const family = document.createElement('p');
-  family.innerText = `Família: ${document.querySelector('.family input:checked').value}`;
+  family.innerText = `Família: ${document.querySelector('.family:checked').value}`;
   form.appendChild(family);
+}
+
+function getSubject() {
+  const checkedSubject = document.querySelectorAll('.subject:checked');
+  let subjectValue = checkedSubject[0].value;
+  for (let index = 1; index < checkedSubject.length; index += 1) {
+    subjectValue += `, ${checkedSubject[index].value}`;
+  }
+  const subject = document.createElement('p');
+  subject.innerText = `Matérias: ${subjectValue}`;
+  form.appendChild(subject);
+}
+
+function rating() {
+  const rate = document.createElement('p');
+  rate.innerText = `Avaliação: ${document.querySelector('.rate:checked').value}`;
+  form.appendChild(rate);
+}
+
+function observations() {
+  const obs = document.createElement('p');
+  obs.innerText = `Observações: ${document.getElementById('textarea').value}`;
+  form.appendChild(obs);
 }
 
 function sendInfo() {
@@ -65,6 +88,9 @@ function sendInfo() {
   getEmail();
   getHouse();
   getFamily();
+  getSubject();
+  rating();
+  observations();
 }
 submitBtn.addEventListener('click', sendInfo);
 
