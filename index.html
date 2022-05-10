@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Trybewarts</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css">
+      <title>Trybewarts</title>
     </head>
     <body>
-    <header class="header">
-        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
-        <h1 id="trybewarts-header-title">Trybewarts</h1>
-        <form class="trybewarts-login" action="" method="get" enctype="multipart/form-data">
-                <label for="email">
+        <header class="header">
+            <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo Trybewarts">
+            <h1 id="trybewarts-header-title">Trybewarts</h1>
+            <form class="trybewarts-login" action="" method="get" enctype="multipart/form-data">
                 <input type="email" name="email" id="email" placeholder="Email">
-                </label>
-                <label for="Senha">
                 <input type="password" name="password" id="senha" placeholder="Senha">
-                </label> 
                 <button class="btn">Entrar</button>
             </form>
         </header>
         <main>
-              <form id="evaluation-form" action="" method="get" enctype="multipart/form-data">
-                  <section id="fullname">
+            <form id="evaluation-form" action="" method="get" enctype="multipart/form-data">
+                <section id="fullname">
                     <label for="input-name">Nome: 
                     <input id="input-name" type="text" placeholder="Nome">
                     </label>
                     <label for="input-lastname">Sobrenome:
                     <input id="input-lastname" type="text" placeholder="Sobrenome">
                     </label>
-                  </section>
-                  <section>
+                </section>
+                <section>
                     <label for="input-email">E-mail:
                     <input id="input-email" type="text" placeholder="Email">
                     </label>
@@ -43,17 +39,17 @@
                         <option id="pytherina-house" value="Pytherina">Pytherina</option>
                     </select>
                     </label>
-                  </section>
-                  <label id="label-family" for="family">Qual sua família?</label>
-                      <label for="frontend">
-                      <input type="radio" name="family" class="family" id="frontend" value="Frontend">Frontend
-                      </label>
-                      <label for="backend">
-                      <input type="radio" name="family" class="family" id="backend" value="Backend">Backend
-                      </label>
-                      <label for="fullstack">
-                      <input type="radio" name="family" class="family" id="fullstack" value="FullStack">Fullstack
-                      </label>
+                </section>
+                    <label id="label-family" for="family">Qual sua família?</label>
+                    <label for="frontend">
+                    <input type="radio" name="family" class="family" id="frontend" value="Frontend">Frontend
+                    </label>
+                    <label for="backend">
+                    <input type="radio" name="family" class="family" id="backend" value="Backend">Backend
+                    </label>
+                    <label for="fullstack">
+                    <input type="radio" name="family" class="family" id="fullstack" value="FullStack">Fullstack
+                    </label>
                     <label id="label-content" for="subject">Qual conteúdo você está com mais vontade de aprender?</label>
                         <label for="hofs">
                         <input type="checkbox" name="content" class="subject" id="hofs" value="HoFs">HoFs</label>
@@ -96,11 +92,11 @@
                 <input type="checkbox" name="agree" id="agreement" required>Você concorda com o uso das informações acima?</label>
                 <button type="submit" id="submit-btn" disabled>Enviar</button>
             </form>
-              <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo Trybewarts Colorido">
+            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo Trybewarts Colorido">
         </main>
-        <footer>
-            <p>Direitos reservados à Trybewarts©</p>
-        </footer>   
-        <script src="script.js"></script>   
+    <footer>
+        <p>Direitos reservados à Trybewarts©</p>
+    </footer>   
+    <script src="script.js"></script>   
     </body>
 </html>
