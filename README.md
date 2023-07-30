@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="image-school-magic-form" src="https://imgur.com/eI8jcMT"/>
+  <img alt="image-school-magic-form" src="https://i.imgur.com/eI8jcMT.png"/>
 </div>
 <h1 align="center">School Magic Form</h1>
 
