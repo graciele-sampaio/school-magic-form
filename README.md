@@ -4,7 +4,7 @@
 <h1 align="center">School Magic Form</h1>
 
 <p align="center">
-CRiação de formulário utilizando HTML, CSS e JavaScript</p>
+Criação de formulário utilizando HTML, CSS e JavaScript</p>
 
 
 ## Tecnologias utilizadas
